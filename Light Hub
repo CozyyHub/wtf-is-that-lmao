@@ -712,5 +712,5 @@ FEChair_2.TextScaled = true
 FEChair_2.TextSize = 14.000
 FEChair_2.TextWrapped = true
 FEChair_2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/9kDrHnUd", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/9kDrHnUd", true))()
 end)
