@@ -1,0 +1,716 @@
+-- Made by Light
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local GUIsFrame = Instance.new("ScrollingFrame")
+local RagdollGUI = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
+local Bloxburg = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local Boat = Instance.new("TextButton")
+local BTools = Instance.new("TextButton")
+local Text = Instance.new("TextLabel")
+local Text_2 = Instance.new("TextLabel")
+local Fencing = Instance.new("TextButton")
+local ChatBypass = Instance.new("TextButton")
+local ChatLogs = Instance.new("TextButton")
+local GUIs = Instance.new("TextButton")
+local FE = Instance.new("TextButton")
+local Admin = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local FEFrame = Instance.new("ScrollingFrame")
+local FESonic = Instance.new("TextButton")
+local FEChill = Instance.new("TextButton")
+local FEDance = Instance.new("TextButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local FEGun = Instance.new("TextButton")
+local FECar = Instance.new("TextButton")
+local FESniper = Instance.new("TextButton")
+local FENeptunian = Instance.new("TextButton")
+local FEHats = Instance.new("TextButton")
+local FEChair = Instance.new("TextButton")
+local FEChair_2 = Instance.new("TextButton")
+local FEKrystal = Instance.new("TextButton")
+local FEKrystal_2 = Instance.new("TextButton")
+local AdminFrame = Instance.new("ScrollingFrame")
+local IY = Instance.new("TextButton")
+local Color = Instance.new("TextButton")
+local ChangeColor = Instance.new("Frame")
+local Text_3 = Instance.new("TextLabel")
+local Black = Instance.new("TextButton")
+local Blue = Instance.new("TextButton")
+local Red = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.232856065, 0, 0.282555252, 0)
+Frame.Size = UDim2.new(0, 546, 0, 278)
+Frame.Active = true
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 546, 0, 46)
+TextLabel.Font = Enum.Font.SourceSansSemibold
+TextLabel.Text = "Light Hub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+GUIsFrame.Name = "GUIsFrame"
+GUIsFrame.Parent = Frame
+GUIsFrame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+GUIsFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GUIsFrame.BorderSizePixel = 3
+GUIsFrame.Position = UDim2.new(0.260683835, 0, 0.188287973, 0)
+GUIsFrame.Size = UDim2.new(0, 388, 0, 211)
+GUIsFrame.Visible = false
+GUIsFrame.CanvasPosition = Vector2.new(0, 150)
+
+RagdollGUI.Name = "RagdollGUI"
+RagdollGUI.Parent = GUIsFrame
+RagdollGUI.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+RagdollGUI.BorderColor3 = Color3.fromRGB(255, 255, 255)
+RagdollGUI.BorderSizePixel = 2
+RagdollGUI.Position = UDim2.new(0.654846311, 0, 0.179309905, 0)
+RagdollGUI.Size = UDim2.new(0, 112, 0, 39)
+RagdollGUI.Font = Enum.Font.SourceSansBold
+RagdollGUI.Text = "Ragdoll Engine GUI"
+RagdollGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+RagdollGUI.TextScaled = true
+RagdollGUI.TextSize = 14.000
+RagdollGUI.TextWrapped = true
+RagdollGUI.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://gitlab.com/Tsuniox/lua-stuff/-/raw/master/RagdollEngineGUI.lua'),true))()
+end)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = GUIsFrame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Jailbreak.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.BorderSizePixel = 2
+Jailbreak.Position = UDim2.new(0.338510364, 0, 0.0862499774, 0)
+Jailbreak.Size = UDim2.new(0, 112, 0, 39)
+Jailbreak.Font = Enum.Font.SourceSansBold
+Jailbreak.Text = "Jailbreak GUI"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextScaled = true
+Jailbreak.TextSize = 14.000
+Jailbreak.TextWrapped = true
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+end)
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = GUIsFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Arsenal.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.BorderSizePixel = 2
+Arsenal.Position = UDim2.new(0.656716406, 0, 0.0862499848, 0)
+Arsenal.Size = UDim2.new(0, 112, 0, 39)
+Arsenal.Font = Enum.Font.SourceSansBold
+Arsenal.Text = "Arsenal GUI"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextScaled = true
+Arsenal.TextSize = 14.000
+Arsenal.TextWrapped = true
+Arsenal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/T3fzg7tm', true))()
+end)
+
+Bloxburg.Name = "Bloxburg"
+Bloxburg.Parent = GUIsFrame
+Bloxburg.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Bloxburg.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Bloxburg.BorderSizePixel = 2
+Bloxburg.Position = UDim2.new(0.0176148135, 0, 0.177732632, 0)
+Bloxburg.Size = UDim2.new(0, 112, 0, 39)
+Bloxburg.Font = Enum.Font.SourceSansBold
+Bloxburg.Text = "Bloxburg GUI"
+Bloxburg.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bloxburg.TextScaled = true
+Bloxburg.TextSize = 14.000
+Bloxburg.TextWrapped = true
+Bloxburg.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('http://alpha1004.tech/scripts/AlphaX.lua'))()
+end)
+
+MM2.Name = "MM2"
+MM2.Parent = GUIsFrame
+MM2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+MM2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MM2.BorderSizePixel = 2
+MM2.Position = UDim2.new(0.338510334, 0, 0.177732632, 0)
+MM2.Size = UDim2.new(0, 112, 0, 39)
+MM2.Font = Enum.Font.SourceSansBold
+MM2.Text = "MM2 GUI"
+MM2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/ScriptHubScripts/master/MM2%20Admin%20Panel'),true))()
+end)
+
+Boat.Name = "Boat"
+Boat.Parent = GUIsFrame
+Boat.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Boat.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Boat.BorderSizePixel = 2
+Boat.Position = UDim2.new(0.0194849912, 0, 0.0862499848, 0)
+Boat.Size = UDim2.new(0, 112, 0, 39)
+Boat.Font = Enum.Font.SourceSansBold
+Boat.Text = "Build A Boat GUI"
+Boat.TextColor3 = Color3.fromRGB(255, 255, 255)
+Boat.TextScaled = true
+Boat.TextSize = 14.000
+Boat.TextWrapped = true
+Boat.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://startsploiting.weebly.com/uploads/1/3/1/5/131560940/obfuscated_93d91a9_build_a_boat_for_treasure_free_simple_gui.txt", true))()
+end)
+
+BTools.Name = "BTools"
+BTools.Parent = GUIsFrame
+BTools.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+BTools.BorderColor3 = Color3.fromRGB(255, 255, 255)
+BTools.BorderSizePixel = 2
+BTools.Position = UDim2.new(0.0181264579, 0, 0.469031453, 0)
+BTools.Size = UDim2.new(0, 112, 0, 39)
+BTools.Font = Enum.Font.SourceSansBold
+BTools.Text = "BTools GUI (FE)(Key - no cursing!)"
+BTools.TextColor3 = Color3.fromRGB(255, 255, 255)
+BTools.TextScaled = true
+BTools.TextSize = 14.000
+BTools.TextWrapped = true
+BTools.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://ssbtools.netlify.app/assets/storage/LOADSTRING_SCRIPT2.txt"))()
+end)
+
+Text.Name = "Text"
+Text.Parent = GUIsFrame
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.Position = UDim2.new(0.106744632, 0, -0.004235534, 0)
+Text.Size = UDim2.new(0, 295, 0, 52)
+Text.Font = Enum.Font.SourceSansSemibold
+Text.Text = "Games"
+Text.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Text.TextWrapped = true
+
+Text_2.Name = "Text"
+Text_2.Parent = GUIsFrame
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.BackgroundTransparency = 1.000
+Text_2.Position = UDim2.new(0.102016315, 0, 0.367726207, 0)
+Text_2.Size = UDim2.new(0, 295, 0, 52)
+Text_2.Font = Enum.Font.SourceSansSemibold
+Text_2.Text = "Others"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextScaled = true
+Text_2.TextSize = 14.000
+Text_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextWrapped = true
+
+Fencing.Name = "Fencing"
+Fencing.Parent = GUIsFrame
+Fencing.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Fencing.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Fencing.BorderSizePixel = 2
+Fencing.Position = UDim2.new(0.0176147819, 0, 0.264483392, 0)
+Fencing.Size = UDim2.new(0, 112, 0, 39)
+Fencing.Font = Enum.Font.SourceSansBold
+Fencing.Text = "Fencing GUI"
+Fencing.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fencing.TextScaled = true
+Fencing.TextSize = 14.000
+Fencing.TextWrapped = true
+Fencing.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/zsC61DcA'),true))()
+end)
+
+ChatBypass.Name = "ChatBypass"
+ChatBypass.Parent = GUIsFrame
+ChatBypass.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ChatBypass.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass.BorderSizePixel = 2
+ChatBypass.Position = UDim2.new(0.337714076, 0, 0.470829993, 0)
+ChatBypass.Size = UDim2.new(0, 112, 0, 39)
+ChatBypass.Font = Enum.Font.SourceSansBold
+ChatBypass.Text = "Chat Bypass GUI"
+ChatBypass.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypass.TextScaled = true
+ChatBypass.TextSize = 14.000
+ChatBypass.TextWrapped = true
+ChatBypass.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/bedra45/chetbypasser/main/chetbypass"))()
+end)
+
+ChatLogs.Name = "ChatLogs"
+ChatLogs.Parent = GUIsFrame
+ChatLogs.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ChatLogs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+ChatLogs.BorderSizePixel = 2
+ChatLogs.Position = UDim2.new(0.65472436, 0, 0.470829993, 0)
+ChatLogs.Size = UDim2.new(0, 112, 0, 39)
+ChatLogs.Font = Enum.Font.SourceSansBold
+ChatLogs.Text = "Chat Logs"
+ChatLogs.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatLogs.TextScaled = true
+ChatLogs.TextSize = 14.000
+ChatLogs.TextWrapped = true
+ChatLogs.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/stggPUBM", true))()
+end)
+
+GUIs.Name = "GUIs"
+GUIs.Parent = Frame
+GUIs.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+GUIs.BorderColor3 = Color3.fromRGB(255, 255, 255)
+GUIs.BorderSizePixel = 2
+GUIs.Position = UDim2.new(0.0372405387, 0, 0.194641769, 0)
+GUIs.Size = UDim2.new(0, 104, 0, 30)
+GUIs.Font = Enum.Font.SourceSansBold
+GUIs.Text = "GUIs"
+GUIs.TextColor3 = Color3.fromRGB(255, 255, 255)
+GUIs.TextScaled = true
+GUIs.TextSize = 14.000
+GUIs.TextWrapped = true
+GUIs.MouseButton1Down:connect(function()
+	GUIsFrame.Visible = true
+	AdminFrame.Visible = false
+	FEFrame.Visible = false
+end)
+
+
+FE.Name = "FE"
+FE.Parent = Frame
+FE.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FE.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FE.BorderSizePixel = 2
+FE.Position = UDim2.new(0.0372405387, 0, 0.333443016, 0)
+FE.Size = UDim2.new(0, 104, 0, 31)
+FE.Font = Enum.Font.SourceSansBold
+FE.Text = "FE Scripts (R6)"
+FE.TextColor3 = Color3.fromRGB(255, 255, 255)
+FE.TextScaled = true
+FE.TextSize = 14.000
+FE.TextWrapped = true
+FE.MouseButton1Down:connect(function()
+	GUIsFrame.Visible = false
+	AdminFrame.Visible = false
+	FEFrame.Visible = true
+end)
+
+Admin.Name = "Admin"
+Admin.Parent = Frame
+Admin.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Admin.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Admin.BorderSizePixel = 2
+Admin.Position = UDim2.new(0.0372405574, 0, 0.479881018, 0)
+Admin.Size = UDim2.new(0, 104, 0, 32)
+Admin.Font = Enum.Font.SourceSansBold
+Admin.Text = "Admin GUIs"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextScaled = true
+Admin.TextSize = 14.000
+Admin.TextWrapped = true
+Admin.MouseButton1Down:connect(function()
+	GUIsFrame.Visible = false
+	AdminFrame.Visible = true
+	FEFrame.Visible = false
+end)
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.025152633, 0, 0.624106467, 0)
+TextLabel_2.Size = UDim2.new(0, 116, 0, 52)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "DC Server: gr4xFyRUQk"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextWrapped = true
+
+FEFrame.Name = "FEFrame"
+FEFrame.Parent = Frame
+FEFrame.Active = true
+FEFrame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEFrame.BorderSizePixel = 3
+FEFrame.Position = UDim2.new(0.260683835, 0, 0.19660522, 0)
+FEFrame.Size = UDim2.new(0, 388, 0, 208)
+FEFrame.Visible = false
+FEFrame.CanvasPosition = Vector2.new(0, 150)
+
+FESonic.Name = "FESonic"
+FESonic.Parent = FEFrame
+FESonic.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FESonic.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FESonic.BorderSizePixel = 2
+FESonic.Position = UDim2.new(0.643646419, 0, 0.356464177, 0)
+FESonic.Size = UDim2.new(0, 112, 0, 39)
+FESonic.Font = Enum.Font.SourceSansBold
+FESonic.Text = "FE Sonic"
+FESonic.TextColor3 = Color3.fromRGB(255, 255, 255)
+FESonic.TextScaled = true
+FESonic.TextSize = 14.000
+FESonic.TextWrapped = true
+FESonic.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
+end)
+
+FEChill.Name = "FEChill"
+FEChill.Parent = FEFrame
+FEChill.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEChill.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEChill.BorderSizePixel = 2
+FEChill.Position = UDim2.new(0.0246118307, 0, 0.356464177, 0)
+FEChill.Size = UDim2.new(0, 112, 0, 39)
+FEChill.Font = Enum.Font.SourceSansBold
+FEChill.Text = "FE Chill"
+FEChill.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEChill.TextScaled = true
+FEChill.TextSize = 14.000
+FEChill.TextWrapped = true
+FEChill.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/XmHFdTij"))()
+end)
+
+FEDance.Name = "FEDance"
+FEDance.Parent = FEFrame
+FEDance.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEDance.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEDance.BorderSizePixel = 2
+FEDance.Position = UDim2.new(0.338561982, 0, 0.356464177, 0)
+FEDance.Size = UDim2.new(0, 112, 0, 39)
+FEDance.Font = Enum.Font.SourceSansBold
+FEDance.Text = "FE Meme Dance"
+FEDance.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEDance.TextScaled = true
+FEDance.TextSize = 14.000
+FEDance.TextWrapped = true
+FEDance.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/0QfjMKrF"))()
+end)
+
+TextLabel_3.Parent = FEFrame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.208595157, 0, 0.224280715, 0)
+TextLabel_3.Size = UDim2.new(0, 231, 0, 83)
+TextLabel_3.Font = Enum.Font.SourceSansSemibold
+TextLabel_3.Text = "No Hat  scripts"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = FEFrame
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(0.104477614, 0, -0.00415861933, 0)
+TextLabel_4.Size = UDim2.new(0, 318, 0, 47)
+TextLabel_4.Font = Enum.Font.SourceSansSemibold
+TextLabel_4.Text = "Hat scripts"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextWrapped = true
+
+FEGun.Name = "FEGun"
+FEGun.Parent = FEFrame
+FEGun.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEGun.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEGun.BorderSizePixel = 2
+FEGun.Position = UDim2.new(0.341032207, 0, 0.0830954015, 0)
+FEGun.Size = UDim2.new(0, 112, 0, 39)
+FEGun.Font = Enum.Font.SourceSansBold
+FEGun.Text = "FE Gun (METAL x LIGHTSEER 77)"
+FEGun.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEGun.TextScaled = true
+FEGun.TextSize = 14.000
+FEGun.TextWrapped = true
+FEGun.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet(('https://humbled-buses.000webhostapp.com/FE%20Gun%202.txt'),true))()
+end)
+
+FECar.Name = "FECar"
+FECar.Parent = FEFrame
+FECar.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FECar.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FECar.BorderSizePixel = 2
+FECar.Position = UDim2.new(0.0242473651, 0, 0.0830954015, 0)
+FECar.Size = UDim2.new(0, 112, 0, 39)
+FECar.Font = Enum.Font.SourceSansBold
+FECar.Text = "FE Car (Eltoria RS750)"
+FECar.TextColor3 = Color3.fromRGB(255, 255, 255)
+FECar.TextScaled = true
+FECar.TextSize = 14.000
+FECar.TextWrapped = true
+FECar.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+FESniper.Name = "FESniper"
+FESniper.Parent = FEFrame
+FESniper.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FESniper.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FESniper.BorderSizePixel = 2
+FESniper.Position = UDim2.new(0.645783484, 0, 0.0830954015, 0)
+FESniper.Size = UDim2.new(0, 112, 0, 39)
+FESniper.Font = Enum.Font.SourceSansBold
+FESniper.Text = "FESniper (Cyberpunk Sniper)"
+FESniper.TextColor3 = Color3.fromRGB(255, 255, 255)
+FESniper.TextScaled = true
+FESniper.TextSize = 14.000
+FESniper.TextWrapped = true
+FESniper.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://paste.ee/r/YIJ0n/0"))()
+end)
+
+FENeptunian.Name = "FENeptunian"
+FENeptunian.Parent = FEFrame
+FENeptunian.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FENeptunian.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FENeptunian.BorderSizePixel = 2
+FENeptunian.Position = UDim2.new(0.0242473055, 0, 0.165114328, 0)
+FENeptunian.Size = UDim2.new(0, 112, 0, 39)
+FENeptunian.Font = Enum.Font.SourceSansBold
+FENeptunian.Text = "FE Neptunian V (Any UGC Greatsword)"
+FENeptunian.TextColor3 = Color3.fromRGB(255, 255, 255)
+FENeptunian.TextScaled = true
+FENeptunian.TextSize = 14.000
+FENeptunian.TextWrapped = true
+FENeptunian.MouseButton1Down:connect(function()
+	loadstring(game:HttpGetAsync("https://pastebin.com/raw/t0Mkc33N"))()
+end)
+
+FEHats.Name = "FEHats"
+FEHats.Parent = FEFrame
+FEHats.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEHats.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEHats.BorderSizePixel = 2
+FEHats.Position = UDim2.new(0.341032177, 0, 0.165114328, 0)
+FEHats.Size = UDim2.new(0, 112, 0, 39)
+FEHats.Font = Enum.Font.SourceSansBold
+FEHats.Text = "FE Floating Hats"
+FEHats.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEHats.TextScaled = true
+FEHats.TextSize = 14.000
+FEHats.TextWrapped = true
+FEHats.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/4B4fktPS", true))()
+end)
+
+FEChair.Name = "FEChair"
+FEChair.Parent = FEFrame
+FEChair.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEChair.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEChair.BorderSizePixel = 2
+FEChair.Position = UDim2.new(0.0246118307, 0, 0.449989349, 0)
+FEChair.Size = UDim2.new(0, 112, 0, 39)
+FEChair.Font = Enum.Font.SourceSansBold
+FEChair.Text = "FE Chair"
+FEChair.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEChair.TextScaled = true
+FEChair.TextSize = 14.000
+FEChair.TextWrapped = true
+FEChair.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/XJfGC6Hm", true))()
+end)
+
+FEKrystal.Name = "FEKrystal"
+FEKrystal.Parent = FEFrame
+FEKrystal.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEKrystal.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEKrystal.BorderSizePixel = 2
+FEKrystal.Position = UDim2.new(0.645745873, 0, 0.449989349, 0)
+FEKrystal.Size = UDim2.new(0, 112, 0, 39)
+FEKrystal.Font = Enum.Font.SourceSansBold
+FEKrystal.Text = "FE Krystal Dance"
+FEKrystal.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEKrystal.TextScaled = true
+FEKrystal.TextSize = 14.000
+FEKrystal.TextWrapped = true
+FEKrystal.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/FV3HLmTH", true))()
+end)
+
+AdminFrame.Name = "AdminFrame"
+AdminFrame.Parent = Frame
+AdminFrame.Active = true
+AdminFrame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+AdminFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+AdminFrame.BorderSizePixel = 3
+AdminFrame.Position = UDim2.new(0.260683835, 0, 0.198238894, 0)
+AdminFrame.Size = UDim2.new(0, 388, 0, 207)
+AdminFrame.Visible = false
+
+IY.Name = "IY"
+IY.Parent = AdminFrame
+IY.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+IY.BorderColor3 = Color3.fromRGB(255, 255, 255)
+IY.BorderSizePixel = 2
+IY.Position = UDim2.new(0.0223880708, 0, 0.0184266344, 0)
+IY.Size = UDim2.new(0, 112, 0, 39)
+IY.Font = Enum.Font.SourceSansBold
+IY.Text = "Infinite Yield"
+IY.TextColor3 = Color3.fromRGB(255, 255, 255)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+IY.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+Color.Name = "Color"
+Color.Parent = Frame
+Color.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Color.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Color.BorderSizePixel = 2
+Color.Position = UDim2.new(0.0372405387, 0, 0.838526666, 0)
+Color.Size = UDim2.new(0, 104, 0, 30)
+Color.Font = Enum.Font.SourceSansBold
+Color.Text = "Change Color"
+Color.TextColor3 = Color3.fromRGB(255, 255, 255)
+Color.TextScaled = true
+Color.TextSize = 14.000
+Color.TextWrapped = true
+Color.MouseButton1Down:connect(function()
+	if ChangeColor.Visible == false then
+		ChangeColor.Visible = true
+	else
+		ChangeColor.Visible = false
+	end
+end)
+
+ChangeColor.Name = "ChangeColor"
+ChangeColor.Parent = Frame
+ChangeColor.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ChangeColor.BorderSizePixel = 0
+ChangeColor.Position = UDim2.new(1.10439551, 0, 0.0827338099, 0)
+ChangeColor.Size = UDim2.new(0, 199, 0, 202)
+ChangeColor.Visible = false
+
+Text_3.Name = "Text"
+Text_3.Parent = ChangeColor
+Text_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_3.BackgroundTransparency = 1.000
+Text_3.Position = UDim2.new(-0.0788880959, 0, 0.0325880162, 0)
+Text_3.Size = UDim2.new(0, 228, 0, 39)
+Text_3.Font = Enum.Font.SourceSansSemibold
+Text_3.Text = "Change Color"
+Text_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_3.TextScaled = true
+Text_3.TextSize = 14.000
+Text_3.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Text_3.TextWrapped = true
+
+Black.Name = "Black"
+Black.Parent = ChangeColor
+Black.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Black.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Black.BorderSizePixel = 2
+Black.Position = UDim2.new(0.127692908, 0, 0.276026636, 0)
+Black.Size = UDim2.new(0, 147, 0, 35)
+Black.Font = Enum.Font.SourceSansBold
+Black.Text = "Black"
+Black.TextColor3 = Color3.fromRGB(255, 255, 255)
+Black.TextScaled = true
+Black.TextSize = 14.000
+Black.TextWrapped = true
+Black.MouseButton1Down:connect(function()
+	Frame.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+	TextLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+end)
+
+Blue.Name = "Blue"
+Blue.Parent = ChangeColor
+Blue.BackgroundColor3 = Color3.fromRGB(0, 55, 145)
+Blue.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Blue.BorderSizePixel = 2
+Blue.Position = UDim2.new(0.127692908, 0, 0.535669804, 0)
+Blue.Size = UDim2.new(0, 147, 0, 35)
+Blue.Font = Enum.Font.SourceSansBold
+Blue.Text = "Blue"
+Blue.TextColor3 = Color3.fromRGB(255, 255, 255)
+Blue.TextScaled = true
+Blue.TextSize = 14.000
+Blue.TextWrapped = true
+Blue.MouseButton1Down:connect(function()
+	Frame.BackgroundColor3 = Color3.fromRGB(36, 85, 117)
+	TextLabel.BackgroundColor3 = Color3.fromRGB(9, 73, 102)
+end)
+
+Red.Name = "Red"
+Red.Parent = ChangeColor
+Red.BackgroundColor3 = Color3.fromRGB(144, 28, 28)
+Red.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Red.BorderSizePixel = 2
+Red.Position = UDim2.new(0.127692908, 0, 0.789143205, 0)
+Red.Size = UDim2.new(0, 147, 0, 33)
+Red.Font = Enum.Font.SourceSansBold
+Red.Text = "Red"
+Red.TextColor3 = Color3.fromRGB(255, 255, 255)
+Red.TextScaled = true
+Red.TextSize = 14.000
+Red.TextWrapped = true
+Red.MouseButton1Down:connect(function()
+	Frame.BackgroundColor3 = Color3.fromRGB(204, 0, 0)
+	TextLabel.BackgroundColor3= Color3.fromRGB(122, 18, 18)
+end)
+
+FEKrystal_2.Name = "FEKrystal"
+FEKrystal_2.Parent = FEFrame
+FEKrystal_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEKrystal_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEKrystal_2.BorderSizePixel = 2
+FEKrystal_2.Position = UDim2.new(0.645745873, 0, 0.449989349, 0)
+FEKrystal_2.Size = UDim2.new(0, 112, 0, 39)
+FEKrystal_2.Font = Enum.Font.SourceSansBold
+FEKrystal_2.Text = "FE Wall Walk"
+FEKrystal_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEKrystal_2.TextScaled = true
+FEKrystal_2.TextSize = 14.000
+FEKrystal_2.TextWrapped = true
+FEKrystal_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/RY9cBbdG"))()
+end)
+
+FEChair_2.Name = "FETable"
+FEChair_2.Parent = FEFrame
+FEChair_2.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+FEChair_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+FEChair_2.BorderSizePixel = 2
+FEChair_2.Position = UDim2.new(0.339, 0,0.45, 0)
+FEChair_2.Size = UDim2.new(0, 112, 0, 39)
+FEChair_2.Font = Enum.Font.SourceSansBold
+FEChair_2.Text = "FE Table"
+FEChair_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+FEChair_2.TextScaled = true
+FEChair_2.TextSize = 14.000
+FEChair_2.TextWrapped = true
+FEChair_2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/9kDrHnUd", true))()
+end)
